@@ -46,6 +46,7 @@ By using this transformer as a filter, the compiler will be able to escape the F
 var jade = require('jade');
 var jfm = require('jstransformer-jade-jekyll');
 
+// set the jstransformer-jade-jekyll filter
 jade.filters.jfm = jfm.render;
  
 // renderFile 
