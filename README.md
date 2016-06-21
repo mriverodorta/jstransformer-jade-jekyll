@@ -3,6 +3,7 @@
 A simple transformer to add new lines after Jekyll Front Matter to Jade/Pug templates.
 
 [![Build Status](https://travis-ci.org/mriverodorta/jstransformer-jade-jekyll.svg?branch=master)](https://travis-ci.org/mriverodorta/jstransformer-jade-jekyll)
+[![Coverage Status](https://coveralls.io/repos/github/mriverodorta/jstransformer-jade-jekyll/badge.svg?branch=master)](https://coveralls.io/github/mriverodorta/jstransformer-jade-jekyll?branch=master)
 
 ## About
 This transformer was made to solve the issue when using Jade/Pug templates and Jekyll Front Matter.
