@@ -1,0 +1,25 @@
+{
+  "name": "jstransformer-jade-jekyll",
+  "version": "1.0.0",
+  "description": "A simple transformer to escape Jekyll Front Matter from Jade/Pug templates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jstransformer",
+    "jekyll",
+    "jade",
+    "pug",
+    "yaml"
+  ],
+  "author": {
+    "name": "Maikel Rivero Dorta",
+    "url": "http://maikelrivero.com"
+  },
+  "dependencies": {},
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
