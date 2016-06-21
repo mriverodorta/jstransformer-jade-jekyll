@@ -7,7 +7,7 @@ A simple transformer to add new lines after Jekyll Front Matter to Jade/Pug temp
 ## About
 This transformer was made to solve the issue when using Jade/Pug templates and Jekyll Front Matter.
 
-The Jekyll Front Matter YAML format that is required to properly build a Jekyll site is not valid when passing through the Jade compiler. Traying to compile a file like this.
+The Jekyll Front Matter YAML format that is required to properly build a Jekyll site is not valid when passing through the Jade/Pug compiler. Traying to compile a file like this.
 
 ```
 ---
@@ -40,7 +40,7 @@ unexpected text ""The "
 
 ## Usage
 
-By using this transformer as a filter, the Jade compiler will be able to escape the Front Matter and compile correctly. Also the formatter will add a new line after the end of the block to separate the Front Matter from the Jade template. This way when Jade compress the templates the Front Matter will be alone at the top, so Jekyll can understand it well. Now let's try it again with the filter.
+By using this transformer as a filter, the compiler will be able to escape the Front Matter and compile correctly. Also the formatter will add a new line after the end of the block to separate the Front Matter from the Jade/Pug template. This way when the compiler compress the templates the Front Matter will be alone at the top, so Jekyll can understand it well. Now let's try it again with the filter.
 
 ```js
 var jade = require('jade');
