@@ -1,6 +1,6 @@
 'use strict';
 
-exports.name = 'fm';
+exports.name = 'jfm';
 exports.inputFormats = ['html'];
 exports.outputFormat = 'html';
 
